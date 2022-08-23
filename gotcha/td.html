@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typical Designs Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <div class="navbar">
+        <h1 class="logo"><a href="#hero"> Gotcha Interior !</a></h1>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="closeMenu()"></i>
+    <ul >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="td.html">Typical Designs</a></li>
+        <li><a href="pr.html">Price & Reviews</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html" >About us</a></li>
+        <input type="text" class="search-button" placeholder="Search here" >
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="openMenu()"></i>
+</div>
     
     <section id="td" class="typical-designs">
         
@@ -196,5 +213,29 @@
 </div>
 </div>
     </section>
+
+    <footer>
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+            <p>Copyrights  Gotcha Interior! Ta nga Jiki buot buot</p>
+        </div>
+    </footer>
+
+    <script>
+          // toggle menu 
+
+          var navLinks = document.getElementById("navLinks");
+
+function openMenu(){
+    navLinks.style.right = "0";
+}
+
+function closeMenu(){
+    navLinks.style.right = "-330px";
+}
+    </script>
 </body>
 </html>

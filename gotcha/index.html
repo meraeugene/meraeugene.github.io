@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gotcha Interior!</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,11 +15,11 @@
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="closeMenu()"></i>
             <ul >
-                <li><a href="#hero">Home</a></li>
-                <li><a href="td.html" target="_blank">Typical Designs</a></li>
-                <li><a href="pr.html" target="_blank">Price & Reviews</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="about.html" target="_blank">About us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="td.html">Typical Designs</a></li>
+                <li><a href="pr.html">Price & Reviews</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About us</a></li>
                 <input type="text" class="search-button" placeholder="Search here" >
             </ul>
         </div>
@@ -30,30 +29,10 @@
             <h1>Wanna Come <span>Inside?</span></h1>
             <p>Interior Designs? Affordable? We Gotcha!</p>
             <div class="first-button">
-            <a href="login.html" target="_blank"><span></span> Log in </a>
-            <a href="singup.html" target="_blank"> <span></span> Sign up</a>
+            <a  id="open"><span></span> Log in </a>
+            <a href="singup.html" > <span></span> Sign up</a>
             </div>
         </div>
-    </section>
-
-
-
-    <!-- blog section -->
-
-    <section id="blog" class="blog">
-        <div class="title-text">
-            <h1>Blog</h1>
-            <p>You can add suggestions or any comments about the website</p>
-        </div>
-        <div class="comment-box">
-            <h1>Leave a comment</h1>
-            <form action="">
-                <input type="text" placeholder="Enter Name" required>
-                <input type="email" placeholder="Enter Email" required>
-                <textarea placeholder="Add comments" rows="10" required></textarea>
-                <button type="submit" class="create">Submit</button>
-                </form>
-            </div>
     </section>
 
 
@@ -66,50 +45,9 @@
                 <p>Copyrights  Gotcha Interior! Ta nga Jiki buot buot</p>
             </div>
         </footer>
-       
 
-    <script>
+    
+        <script src="script.js"></script>
 
-        // toggle menu 
-
-        var navLinks = document.getElementById("navLinks");
-
-        function openMenu(){
-            navLinks.style.right = "0";
-        }
-
-        function closeMenu(){
-            navLinks.style.right = "-330px";
-        }
-
-        // smooth scroll
-
-        
-    $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-
-    </script>
 </body>
 </html>

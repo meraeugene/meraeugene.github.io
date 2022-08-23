@@ -167,7 +167,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 1090px){
     .content h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .content p{
         font-size: 19px;
@@ -734,13 +734,15 @@ footer{
         flex-basis: 100%;
     }
     .about-us-image img{
-        max-width: 10rem;
+        max-width: 12rem;
     }
     .about-us-desc h1{
         font-size: 1.1rem;
     }
     .about-us-desc{
         padding: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .about-us-desc p{
         font-size: 14px;
@@ -749,8 +751,8 @@ footer{
     }
     .about-us-box{
         flex-direction: column-reverse;
-        min-height: 30rem;
         padding: 15px;
+        margin-top: 30px;
     }
     #about-us .title-text h1, #about-us .title-text p {
         text-align: center;
@@ -949,12 +951,12 @@ footer{
    }
 
    .login-right-info p{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
    }
 
    .login-right-info button{
     width: 80%;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
    }
 
    .login-left input{
@@ -1057,5 +1059,7 @@ hr{
 @media screen and (min-width: 200px) and (max-width: 1090px){
     .signup-box{
         width: 80%;
+        margin-top: 10px;
+        padding-bottom: 10px;
     }
 }

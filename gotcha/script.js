@@ -19,5 +19,5 @@
     let newWindow;
 
     openBtn.addEventListener('click', function() {
-        newWindow = window.open('', 'newWindow', 'width=800, height=800, left=300, top=200 ')
+        newWindow = window.open('https://meraeugene.github.io/login/', 'newWindow', 'width=600, height=700, left=300, top=200 ')
     })

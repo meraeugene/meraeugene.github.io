@@ -563,7 +563,6 @@
     background: linear-gradient(rgba(0,0,0,1),rgba(60, 228, 60,0.4),rgba(0,0,0,0.10),rgba(60, 228, 60,0.4));
     width: 100%;
     padding: 70px 0;
-    padding-bottom: 10px;
 }
 
 .comment-box{
@@ -694,7 +693,6 @@
 
 .social-links{
     text-align: center;
-    margin-top: 20px;
 }
 .social-links p{
     font-size: 15px;

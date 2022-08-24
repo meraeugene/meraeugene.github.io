@@ -14,13 +14,13 @@
        
 // open new browser 
 
-    const openBtn = document.getElementById('open');
+const openBtn = document.getElementById('open');
 
-    let newWindow;
+let newWindow;
 
-    openBtn.addEventListener('click', function() {
-        newWindow = window.open('https://meraeugene.github.io/login/', 'newWindow', 'width=1100, height=700, left=100, top=200 ')
-    })
+openBtn.addEventListener('click', function() {
+    newWindow = window.open('https://meraeugene.github.io/login/', 'newWindow', 'width=1100, height=700, left=100, top=200 ')
+})
 
     const openBtntwo = document.getElementById('openTwo');
 

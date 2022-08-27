@@ -19,7 +19,7 @@
 }
 
 .header-flex img{
-    width: 130px;
+    width: 10%;
 }
 
 .header-flex button{
@@ -100,6 +100,15 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 1090px){
+    
+    .header-flex img{
+        width: 30%;
+    }
+
+    .header-flex{
+        margin: 0 20px;
+    }
+    
     .email-div{
         display: block;
     }
@@ -107,6 +116,7 @@
     .email-div input{
         width: 100%;
         margin-bottom: 20px;
+        height: 20%;
     }
 
     .email-div button{
@@ -118,13 +128,19 @@
 
     .info{
         margin-top: 30px;
+        width: 90%;
     }
 
     .info h1{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
+
+    .info h2{
+        font-size: 1rem;
+    }
+
     .info h3{
-        font-size: 18px;
+        font-size: 0.7rem;
         max-width: 100%;
     }
 }
@@ -198,7 +214,7 @@
         font-size: 2rem;
     }
     .text  h2{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .edit{
@@ -330,12 +346,12 @@
         text-align: center;
     }
     .text-two h1{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         margin-bottom: 20px;
         font-weight: 600;
     }
     .text-two h2{
-        font-size: 1.5rem;
+        font-size: 0.9rem;
     }
 
     .text-two{
@@ -393,14 +409,14 @@
 @media screen and (min-width: 200px) and (max-width: 1090px){
     .fourth-info{
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .fourth-info h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .fourth-info h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
@@ -453,11 +469,12 @@
         width: 80%;
     }
     .fifth-flex h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .fifth-flex h2{
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 2em;
+        text-align: center;
     }
 }
 
@@ -528,18 +545,24 @@
     .gray-box{
         padding: 0.6em;
     }
+    .gray-box p{
+        font-size: 0.9rem;
+    }
+    .gray-box .fa{
+        font-size: 0.8rem;
+    }
     .six h1{
         font-size: 1.8rem;
     }
     .six h3{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         width: 70%;
         margin: auto;
         margin-top: 1.5em;
         margin-bottom: 1em;
     }
     .six .email-div{
-        width: 80%;
+        width: 90%;
     }
     .six .email-div input{
         width: 100%;

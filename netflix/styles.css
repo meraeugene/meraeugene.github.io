@@ -604,7 +604,7 @@ footer{
     width: 25%;
     margin-bottom: 16px;
     cursor: pointer;
-    min-width: 100px;
+    min-width: 90px;
     box-sizing: border-box;
     vertical-align: top;
 }
@@ -631,10 +631,15 @@ footer{
 
 @media screen and (min-width: 200px) and (max-width: 1090px){
     .footer-link-item{
-        width: 33%;
-        margin-right: 0.7em;
+        margin-right: 1.5em;
     }
     .footer-structure{
         width: 100%;
+    }
+    footer{
+        margin: auto;
+    }
+    .footer-link-item span{
+        font-size: 0.7rem;
     }
 }
